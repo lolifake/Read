@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="db"></dbname>
+    <version value="3"></version>
+    <list>
+        <mapping class="com.example.readandwrite.bean.LitePalArticle"></mapping>
+        <mapping class="com.example.readandwrite.bean.LitePalUser"></mapping>
+    </list>
+</litepal>

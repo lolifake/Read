@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+       android:id="@+id/picture"
+       android:text="更改头像"
+       android:textColor="#000"
+       style="?android:attr/borderlessButtonStyle"/>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="1dp"
+        android:background="#F4F2F2"
+        >
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/take_photo"
+        android:text="拍照"
+        android:textColor="#000"
+        style="?android:attr/borderlessButtonStyle"/>-->
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+     android:background="#F8F5F5">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#000"
+        android:text="退出登录"/>
+
+</LinearLayout>

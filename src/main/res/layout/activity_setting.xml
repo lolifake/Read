@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--设置页面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="设置"
+        app:titleTextColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/niki_name"
+        android:text="昵称"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/set_back"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd"
+        android:text="密码"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/set_back"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_out"
+        android:text="退出登录"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
